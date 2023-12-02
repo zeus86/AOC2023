@@ -1,0 +1,11 @@
+
+# part one:
+
+cat input | tr -d [:alpha:] | sed -e 's/\(.\)/\1\1/' | sed -e 's/^\(.\{1\}\).*\(.\{1\}\)$/\1\2/' | paste -sd+ | bc
+
+
+# part two:
+
+sed -i -e 's/one/o1e/g' -e 's/two/t2o/g' -e 's/three/t3e/g' -e 's/four/f4r/g' -e 's/five/f5e/g' -e 's/six/s6x/g' -e 's/seven/s7n/g' -e 's/eight/e8t/g' -e 's/nine/n9e/g' input
+cat input | tr -d [:alpha:] | sed -e 's/\(.\)/\1\1/' | sed -e 's/^\(.\{1\}\).*\(.\{1\}\)$/\1\2/' | paste -sd+ | bc
+
