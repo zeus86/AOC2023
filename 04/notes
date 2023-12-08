@@ -1,0 +1,5 @@
+# 332837724870 was too high (calculated value^value)
+# 6236 was too low (calculated with value^2)
+# 42460 was too low (calculated with 2^value)
+# 21213 was correct (calculated with ignoring zeroes and halving the final score)
+
